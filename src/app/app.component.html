@@ -1,0 +1,22 @@
+
+<table class="text-center mx-auto mt-5" border="1">
+	<tr>
+		<th>Sunday</th>
+		<th>Monday</th>
+		<th>Tuesday</th>
+		<th>Wednesday</th>
+		<th>Thursday</th>
+		<th>Friday</th>
+		<th>Saturday</th>
+	</tr>
+	<tr>
+		<td id="sun">{{response.list[0].main.temp}}<sup>0</sup>C</td>
+		<td id="mon">{{(response).list[1].main.temp}}<sup>0</sup>C</td>
+		<td id="tues">{{(response).list[2].main.temp}}<sup>0</sup>C</td>
+		<td id="wed">{{(response).list[3].main.temp}}<sup>0</sup>C</td>
+		<td id="thurs">{{(response).list[4].main.temp}}<sup>0</sup>C</td>
+		<td id="fri">{{(response).list[5].main.temp}}<sup>0</sup>C</td>
+		<td id="sat">{{(response).list[6].main.temp}}<sup>0</sup>C</td>
+	</tr>
+</table>
+<router-outlet></router-outlet>
